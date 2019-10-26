@@ -86,9 +86,9 @@
     o.push([0, "chunk-vendors"]), a()
 })({
     0: function(t, e, a) { t.exports = a("56d7") },
-    "0f03": function(t, e, a) { t.exports = a.p + "./resume/img/05.285e03a0.png" },
-    "10cf": function(t, e, a) { t.exports = a.p + "./resume/img/02.9f706046.png" },
-    "204f": function(t, e, a) { t.exports = a.p + "./resume/img/04.eb08f744.png" },
+    "0f03": function(t, e, a) { t.exports = a.p + "resume/img/05.285e03a0.png" },
+    "10cf": function(t, e, a) { t.exports = a.p + "resume/img/02.9f706046.png" },
+    "204f": function(t, e, a) { t.exports = a.p + "resume/img/04.eb08f744.png" },
     "285b": function(t, e, a) {},
     "30a7": function(t, e, a) {
         "use strict";
@@ -96,9 +96,9 @@
             i = a.n(s);
         i.a
     },
-    "37be": function(t, e, a) { t.exports = a.p + "./resume/img/大頭照2.e879890c.jpg" },
+    "37be": function(t, e, a) { t.exports = a.p + "resume/img/大頭照2.e879890c.jpg" },
     "3e83": function(t, e, a) {},
-    5334: function(t, e, a) { t.exports = a.p + "./resume/img/01.abb7eec9.png" },
+    5334: function(t, e, a) { t.exports = a.p + "resume/img/01.abb7eec9.png" },
     "56d7": function(t, e, a) {
         "use strict";
         a.r(e);
@@ -232,11 +232,11 @@
             i = a.n(s);
         i.a
     },
-    "855e": function(t, e, a) { t.exports = a.p + "./resume/img/CSS3_and_HTM.3e5b9f74.png" },
-    a198: function(t, e, a) { t.exports = a.p + "./resume/img/03.97e6948a.png" },
-    aab7: function(t, e, a) { t.exports = a.p + "./resume/img/maple.e5a64f63.png" },
-    cf05: function(t, e, a) { t.exports = a.p + "./resume/img/logo.c1dc63d6.png" },
-    d235: function(t, e, a) { t.exports = a.p + "./resume/img/JS.184596af.png" },
+    "855e": function(t, e, a) { t.exports = a.p + "resume/img/CSS3_and_HTM.3e5b9f74.png" },
+    a198: function(t, e, a) { t.exports = a.p + "resume/img/03.97e6948a.png" },
+    aab7: function(t, e, a) { t.exports = a.p + "resume/img/maple.e5a64f63.png" },
+    cf05: function(t, e, a) { t.exports = a.p + "resume/img/logo.c1dc63d6.png" },
+    d235: function(t, e, a) { t.exports = a.p + "resume/img/JS.184596af.png" },
     e332: function(t, e, a) {}
 });
 //# sourceMappingURL=app.a238b545.js.map
