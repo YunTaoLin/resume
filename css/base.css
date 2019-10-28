@@ -1,0 +1,735 @@
+/* --------------------- */
+
+
+/* $Reset
+------------------------ */
+
+
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+
+
+/* Document
+   ========================================================================== */
+
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+
+html {
+    line-height: 1.15;
+    /* 1 */
+    -webkit-text-size-adjust: 100%;
+    /* 2 */
+}
+
+
+/* Sections
+   ========================================================================== */
+
+
+/**
+ * Remove the margin in all browsers.
+ */
+
+body {
+    margin: 0;
+}
+
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+
+main {
+    display: block;
+}
+
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+
+
+/* Grouping content
+   ========================================================================== */
+
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+
+hr {
+    box-sizing: content-box;
+    /* 1 */
+    height: 0;
+    /* 1 */
+    overflow: visible;
+    /* 2 */
+}
+
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+pre {
+    font-family: monospace, monospace;
+    /* 1 */
+    font-size: 1em;
+    /* 2 */
+}
+
+
+/* Text-level semantics
+   ========================================================================== */
+
+
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+
+a {
+    background-color: transparent;
+}
+
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+
+abbr[title] {
+    border-bottom: none;
+    /* 1 */
+    text-decoration: underline;
+    /* 2 */
+    text-decoration: underline dotted;
+    /* 2 */
+}
+
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+
+b,
+strong {
+    font-weight: bolder;
+}
+
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+code,
+kbd,
+samp {
+    font-family: monospace, monospace;
+    /* 1 */
+    font-size: 1em;
+    /* 2 */
+}
+
+
+/**
+ * Add the correct font size in all browsers.
+ */
+
+small {
+    font-size: 80%;
+}
+
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+
+sub,
+sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+
+sub {
+    bottom: -0.25em;
+}
+
+sup {
+    top: -0.5em;
+}
+
+
+/* Embedded content
+   ========================================================================== */
+
+
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+
+img {
+    border-style: none;
+}
+
+
+/* Forms
+   ========================================================================== */
+
+
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    font-family: inherit;
+    /* 1 */
+    font-size: 100%;
+    /* 1 */
+    line-height: 1.15;
+    /* 1 */
+    margin: 0;
+    /* 2 */
+}
+
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+
+button,
+input {
+    /* 1 */
+    overflow: visible;
+}
+
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+
+button,
+select {
+    /* 1 */
+    text-transform: none;
+}
+
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+    -webkit-appearance: button;
+}
+
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+    border-style: none;
+    padding: 0;
+}
+
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+    outline: 1px dotted ButtonText;
+}
+
+
+/**
+ * Correct the padding in Firefox.
+ */
+
+fieldset {
+    padding: 0.35em 0.75em 0.625em;
+}
+
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+
+legend {
+    box-sizing: border-box;
+    /* 1 */
+    color: inherit;
+    /* 2 */
+    display: table;
+    /* 1 */
+    max-width: 100%;
+    /* 1 */
+    padding: 0;
+    /* 3 */
+    white-space: normal;
+    /* 1 */
+}
+
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+
+progress {
+    vertical-align: baseline;
+}
+
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+
+textarea {
+    overflow: auto;
+}
+
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+
+[type="checkbox"],
+[type="radio"] {
+    box-sizing: border-box;
+    /* 1 */
+    padding: 0;
+    /* 2 */
+}
+
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+    height: auto;
+}
+
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+
+[type="search"] {
+    -webkit-appearance: textfield;
+    /* 1 */
+    outline-offset: -2px;
+    /* 2 */
+}
+
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+
+[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+}
+
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+
+::-webkit-file-upload-button {
+    -webkit-appearance: button;
+    /* 1 */
+    font: inherit;
+    /* 2 */
+}
+
+
+/* Interactive
+   ========================================================================== */
+
+
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+
+details {
+    display: block;
+}
+
+
+/*
+ * Add the correct display in all browsers.
+ */
+
+summary {
+    display: list-item;
+}
+
+
+/* Misc
+   ========================================================================== */
+
+
+/**
+ * Add the correct display in IE 10+.
+ */
+
+template {
+    display: none;
+}
+
+
+/**
+ * Add the correct display in IE 10.
+ */
+
+[hidden] {
+    display: none;
+}
+
+
+/* Add Reset */
+
+* {
+    /* position: relative; */
+    box-sizing: border-box;
+}
+
+
+/* --------------------- */
+
+
+/* $Font
+------------------------ */
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:900&display=swap');
+a:hover {
+    text-decoration: none;
+    color: #484848;
+}
+
+
+/* --------------------- */
+
+
+/* $Color
+------------------------ */
+
+
+/* background color */
+
+.bg-color-primary {
+    background-color: #6487f5;
+}
+
+.bg-color-secondary {
+    background-color: #ff638f;
+}
+
+.bg-color-black {
+    background-color: #484848;
+}
+
+.bg-color-grey {
+    background-color: #cbcbcb;
+}
+
+.bg-color-white {
+    background-color: #fefefe;
+}
+
+
+/* text color */
+
+.color-primary {
+    color: #6487f5;
+}
+
+.color-secondary {
+    color: #ff638f;
+}
+
+.color-black {
+    color: #484848;
+}
+
+.color-grey {
+    color: #cbcbcb;
+}
+
+.color-white {
+    color: #fefefe;
+}
+
+
+/* --------------------- */
+
+
+/* $Typography
+------------------------ */
+
+
+/* Global */
+
+body,
+html {
+    font-family: 'Noto Sans TC', 'Helvetica', 'roboto', arial, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+/* heading */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 24px 0;
+    color: #484848;
+}
+
+h1 {
+    font-size: 80px;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+h2 {
+    font-size: 48px;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+}
+
+h4 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+}
+
+h5 {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1;
+}
+
+h6 {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 24px 0 16px;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0;
+    margin-bottom: 16px;
+}
+
+
+/* link */
+
+a {
+    color: #484848;
+    text-decoration: none;
+}
+
+a:hover,
+a:active,
+a:focus {
+    color: #484848;
+    margin: 0;
+}
+
+
+/* list */
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* --------------------- */
+
+
+/* $ICON
+------------------------ */
+
+@font-face {
+    font-family: 'fontello';
+    src: url('../font/fontello.eot?53268173');
+    src: url('../font/fontello.eot?53268173#iefix') format('embedded-opentype'), url('../font/fontello.woff2?53268173') format('woff2'), url('../font/fontello.woff?53268173') format('woff'), url('../font/fontello.ttf?53268173') format('truetype'), url('../font/fontello.svg?53268173#fontello') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+
+
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+
+
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'fontello';
+    src: url('../font/fontello.svg?53268173#fontello') format('svg');
+  }
+}
+*/
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+    font-family: "fontello";
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
+    display: inline-block;
+    text-decoration: inherit;
+    width: 1em;
+    margin-right: .2em;
+    text-align: center;
+    /* opacity: .8; */
+    /* For safety - reset parent styles, that can break glyph codes*/
+    font-variant: normal;
+    text-transform: none;
+    /* fix buttons height, for twitter bootstrap */
+    line-height: 1em;
+    /* Animation center compensation - margins should be symmetric */
+    /* remove if not needed */
+    margin-left: .2em;
+    /* you can be more comfortable with increased icons size */
+    /* font-size: 120%; */
+    /* Font smoothing. That was taken from TWBS */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    /* Uncomment for 3D effect */
+    /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+
+.icon-search:before {
+    content: '\e800';
+}
+
+
+/* '' */
+
+.icon-mail:before {
+    content: '\e801';
+}
+
+
+/* '' */
+
+.icon-quote-left:before {
+    content: '\f10d';
+}
+
+
+/* '' */
+
+.icon-quote-right:before {
+    content: '\f10e';
+}
+
+
+/* '' */
+
+.icon-instagram:before {
+    content: '\f16d';
+}
+
+
+/* '' */
+
+.icon-paper-plane:before {
+    content: '\f1d8';
+}
+
+
+/* '' */
+
+.icon-paper-plane-empty:before {
+    content: '\f1d9';
+}
+
+
+/* '' */
+
+.icon-facebook-squared:before {
+    content: '\f308';
+}
+
+
+/* '' */
+
+
+/* --------------------- */
+
+
+/* $Utility
+------------------------ */
+
+.u-text-center {
+    text-align: center;
+}
+
+.u-text-left {
+    text-align: left;
+}
+
+.u-text-right {
+    text-align: right;
+}
