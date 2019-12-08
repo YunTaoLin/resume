@@ -297,7 +297,7 @@ section{
       width: 90%;
       display: -webkit-box;
       overflow: hidden;
-      -webkit-line-clamp: 3;
+      -webkit-line-clamp: 4;
       -webkit-box-orient: vertical;
       @media (max-width:425px) {
         font-size: 14px;
