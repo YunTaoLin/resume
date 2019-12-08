@@ -334,7 +334,7 @@ footer {
 //---------------------
 .fixed-btn-group{
   position: fixed;
-  right: 10vw;
+  right: 40px;
   bottom: 8vh;
   z-index: 99;
   @media (max-width: 992px) {
