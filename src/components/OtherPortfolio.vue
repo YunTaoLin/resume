@@ -12,12 +12,12 @@
           <!-- 這邊要用v-for -->
             <div class="work-item" v-for='item in worksData' :key='item.id'>
               <div class="pic">
-                <a :href="item.webLink"><img :src="item.img" alt="作品" v-on:error="pleaceImg"></a>
+                <a :href="item.webLink" target="_blank"><img :src="item.img" alt="作品" v-on:error="pleaceImg"></a>
               </div>
               <div class="text">
-                <h4><a :href="item.webLink">{{item.title}}</a></h4>
+                <h4><a :href="item.webLink" target="_blank">{{item.title}}</a></h4>
                 <p><span></span>{{item.context}}</p>
-                <p class="Anthor"><a :href="item.webLink">前往網站</a></p>
+                <p class="Anthor"><a :href="item.webLink" target="_blank">前往網站</a></p>
                 <!-- <a :href="item.gitLink" class="btn">Github</a> -->
               </div>
             </div>
@@ -297,7 +297,7 @@ section{
       width: 90%;
       display: -webkit-box;
       overflow: hidden;
-      -webkit-line-clamp: 2;
+      -webkit-line-clamp: 3;
       -webkit-box-orient: vertical;
       @media (max-width:425px) {
         font-size: 14px;

@@ -180,8 +180,8 @@
           </div>
           </div>
         </section>
-  <!-- -----------end skill------------ -->
-  <!-- -----------start works------------ -->
+  <!-------------end skill-------------->
+  <!-------------start works------------>
         <section class="works">
           <div class="container works-inner wow slideInUp">
             <div class="works-context">
@@ -189,13 +189,13 @@
               
               <div class="btn-group">
                 <router-link class="workLink" to="/portfolio" >前往作品集</router-link>
-                <a href="https://github.com/YunTaoLin?tab=repositories" class="gitLink">Github<i class="icon icon-github"></i></a>
+                <a href="https://github.com/YunTaoLin?tab=repositories" class="gitLink" target="_blank">Github<i class="icon icon-github"></i></a>
               </div>
             </div>
           </div>
         </section>
       </div>
-  <!-- -----------end works------------ -->
+  <!-------------end works-------------->
   
    </div>
 
