@@ -264,7 +264,7 @@ section{
   display: flex;
   align-items: center;
   flex-direction: column;
-  background-color: #fff8ee;
+  background-color: #CCC8C4;
  
   // -------start header------------------
   header{

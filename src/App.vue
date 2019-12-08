@@ -12,9 +12,9 @@
                     </div>
                     <nav class="nav">
                       <ul>
-                        <li><router-link class="nav-item" to="/">自我簡介</router-link></li>
+                        <li><router-link class="nav-item" to="/">個人簡介</router-link></li>
                         <li><router-link class="nav-item" to="/portfolio">作品集</router-link></li>
-                        <li><router-link class="nav-item" to="/message">站內信</router-link></li>
+                        <li><router-link class="nav-item" to="/experience">社團&實習</router-link></li>
                       </ul>
                     </nav>
                      <a href="javascript:" class="menu-toggle">
@@ -30,9 +30,9 @@
                       <nav class="nav col-8 ">
                         <h4>menu</h4>
                         <ul>
-                          <li><router-link class="nav-item" to="/">自我簡介</router-link></li>
+                          <li><router-link class="nav-item" to="/">個人簡介</router-link></li>
                           <li><router-link class="nav-item" to="/portfolio">作品集</router-link></li>
-                          <li><router-link class="nav-item" to="/message">站內信</router-link></li>
+                          <li><router-link class="nav-item" to="/experience">社團&實習</router-link></li>
                         </ul>
                       </nav>  
                     </div>          
@@ -45,6 +45,19 @@
                 <p class="copyright">copyright © YunTao.Lin</p>
             </div>
     </footer>
+
+        <div class="fixed-btn-group" >
+          <router-link to="/message">
+            <div class="fixed-btn" id="contact" >
+              <span><i class="icon icon-mail"></i></span>
+              <p>站內信</p>
+            </div>
+          </router-link>
+          <div class="fixed-btn" id="toTop" v-on:click="backToTop">
+            <span>︿</span>
+            <p>Top</p>
+          </div>
+        </div>
   </div>
 </template>
 
@@ -67,12 +80,31 @@ export default {
         $('.header-index').toggleClass('active')
         $('.popup-menu').fadeToggle();
         $('.popup-menu  nav').toggleClass('nav-active')
+    },
+    backToTop(){
+      $('html, body').animate({scrollTop: 0}, 1000);
+    },
+    fixbtn(){
+      //固定按鈕設定
+      if($(window).scrollTop() < 1000) {
+        $('.fixed-btn-group').hide();
+      }
+      $(window).on('scroll',()=>{
+        if($(window).scrollTop() >=1000){
+          $('.fixed-btn-group').fadeIn(500)
+          }
+        if($(window).scrollTop() < 1000){
+          $('.fixed-btn-group').fadeOut(500)
+          }
+      })
     }
   },
   mounted(){
     this.scrollEvent();
+    this.fixbtn()
     $('.menu-toggle').on('click',()=>this.menuToggle() )
     $('.mark').on('click',()=>this.menuToggle() )
+    
   },
    beforeUpdate(){
     $('.js-scroll').removeClass('fading')
@@ -85,6 +117,7 @@ export default {
   },
   updated(){
     this.scrollEvent();
+    this.fixbtn()
     $('.menu-toggle').on('click',()=>this.menuToggle() )
     $('.mark').on('click',()=>this.menuToggle() )
   }
@@ -110,6 +143,7 @@ h1{
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  overflow-x: hidden
 }
 #nav {
   padding: 30px;
@@ -124,6 +158,15 @@ h1{
 .main{
   margin-top: 65px;
 }
+
+/* $Global
+------------------------ */
+.my_container{
+  max-width: 1600px;
+  width: 100%;
+  margin: 0 auto;
+}
+
 /* 目前在的頁面 */
 .router-link-exact-active{
  color: rgba(46, 168, 138) !important;
@@ -169,7 +212,6 @@ h1{
        } 
       .nav{
       justify-items: flex-end;
-      width: 280px;
       display: flex;
       @media (max-width: 425px) {
         display: none;
@@ -260,13 +302,13 @@ h1{
       li{
         display: inline-block;
         width: 100%;
-        font-size: 20px;
+        font-size: 16px;
         line-height: 32px;
         border-bottom: 1px solid rgba(255, 255, 255, 0.5);
         a{
           display: inline-block;
           width:100%;
-          padding: 18px 0;
+          padding: 12px 0;
           text-align: left;
         }
       }
@@ -286,5 +328,64 @@ footer {
         // padding-top: 16px;
     }
 } 
+
+//---------------------
+//$fixed-btn
+//---------------------
+.fixed-btn-group{
+  position: fixed;
+  right: 10vw;
+  bottom: 8vh;
+  z-index: 99;
+  @media (max-width: 992px) {
+    right: 4vw;
+    bottom: 8vh;
+    }
+  @media (max-width: 768px) {
+    right: 3vw;
+    bottom: 7vh;
+  }
+  .fixed-btn{
+    background-color: #fff;
+    color: #005BB0;
+    padding: 4px;
+    width: 5em;
+    height: 5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin: 12px 0;
+    box-shadow: 0 0 8px 1px rgba(71, 53, 40, 0.3);
+    transition: .3s;
+    cursor: pointer;
+   
+    @media (max-width: 991px) {
+        padding: 0px;
+        width: 4em;
+        height: 4em;
+      }
+    
+    &:hover{
+      background-color: #005BB0;
+      color: #FFf;
+    }
+    span{
+      font-size: 24px;
+      font-weight: 700;
+      @media (max-width: 991px) {
+        font-size: 18px;
+      }
+    }
+    p{
+      font-size: 14px;
+      line-height: 24px;
+      margin: 0;
+      padding: 0;
+      
+    }
+  }
+}
 
 </style>
