@@ -114,8 +114,14 @@
 </template>
 
 <script>
+import $ from 'jquery'
 export default {
-
+ created(){
+    $('html, body').scrollTop(0);
+  },
+  destroyed(){
+    $(window).off('scroll');
+  }
 }
 </script>
 

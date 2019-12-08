@@ -27,8 +27,8 @@
                 </li>
               </ul>
               <div class="btn-group">
-                <a href="#" class="my_btn">前往網站</a>
-                <a href="#" class="my_btn">Github</a>
+                <a href="http://172.105.215.182/login" class="my_btn" target="_blank">前往網站</a>
+                <a href="https://github.com/YunTaoLin/MyBlog" class="my_btn " target="_blank">Github</a>
               </div>
             </div>
           </div>
@@ -62,8 +62,8 @@
                 </li>
               </ul>
               <div class="btn-group">
-                <a href="#" class="my_btn">前往網站</a>
-                <a href="#" class="my_btn">Github</a>
+                <a href="https://yuntaolin.github.io/play-hair/dist/index.html#/home" class="my_btn" target="_blank">前往網站</a>
+                <a href="https://github.com/YunTaoLin/play-hair" class="my_btn" target="_blank">Github</a>
               </div>
             </div>
           </div>
