@@ -291,6 +291,8 @@ h1{
   }
   .nav{
     background: #000;
+    display: flex;
+    flex-direction: column;
     transform: translateX(0);
     transition: .5s;
     &.nav-active{
