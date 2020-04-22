@@ -108,7 +108,7 @@
             </div>
           </div>
           <div class="col-12 col-md-5 col-lg-7 Portfolio_img">
-              <Carousel :img="carousel_3" id="carousel_3" />>
+              <Carousel :img="carousel_3" id="carousel_3" />
           </div>
         </div>
       </div>
@@ -131,9 +131,9 @@ export default {
   data(){
     return {
       loading:true,
-      carousel_1:['/resume/dist/static/book1.PNG','/resume/dist/static/book2.PNG','/resume/dist/static/book3.PNG','/resume/dist/static/book4.PNG'],
-      carousel_2:['/resume/dist/static/hair1.PNG','/resume/dist/static/hair2.PNG','/resume/dist/static/hair3.PNG','/resume/dist/static/hair4.PNG'],
-      carousel_3:['/resume/dist/static/blog1.PNG','/resume/dist/static/blog2.PNG','/resume/dist/static/blog3.PNG','/resume/dist/static/blog4.PNG','/resume/dist/static/blog5.PNG']
+      carousel_1:['https://i.imgur.com/c2kzQiL.png','https://i.imgur.com/VzyBhID.png','https://i.imgur.com/d7LjKEC.png','https://i.imgur.com/DhX35uy.png'],
+      carousel_2:['https://i.imgur.com/G4ou8nE.png','https://i.imgur.com/KrlDVbu.png','https://i.imgur.com/NdFUCjl.png','https://i.imgur.com/Jrs2wI2.png'],
+      carousel_3:['https://i.imgur.com/N3wpHly.png','https://i.imgur.com/VnlmrUl.png','https://i.imgur.com/H9eMFHN.png','https://i.imgur.com/bhS4Vz3.png','https://i.imgur.com/qeluk9H.png']
     }
   },
    created(){
