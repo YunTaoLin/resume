@@ -106,7 +106,8 @@ section{
   display: flex;
   align-items: center;
   flex-direction: column;
-  background-color: #EEEBE7;
+  // background-color: #EEEBE7; //暫時換顏色
+  background-color:rgb(246, 244, 241);
  
   // -------start header------------------
   header{

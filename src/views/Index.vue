@@ -45,36 +45,19 @@
                       <div class="pic">
                         <img src="../assets/CSS3_and_HTM.png" alt="HTML、CSS圖片">
                       </div>
-                       HTML、CSS
+                       HTML、CSS、JS
                     </h3>
                     
                     <ul>
                         <li>了解使用語意化的方式架構HTML。</li>
-                        <li>熟悉RWD切版，響應各裝置版型。</li>
+                        <li>熟悉RWD切版以及Bootstrap3、4。</li>
                         <li>以模組化方式建構CSS (SCSS)，<br>並遵循OOCSS或BEM命名規則。</li>
-                        <li>CSS preprocessor：SCSS</li>
-                        <li>熟悉Bootstrap、Element等UI框架。</li>
-                    </ul>
-                 </div>
-                 
-               </div>
-               <div class="col-lg-4 col-md-6 col-12">
-                 <div class="skill-js ">
-                    <h3>
-                      <div class="pic">
-                        <img src="../assets/JS.png" alt="Javascript圖片">
-                      </div>
-                     Javascript
-                    </h3>
-                    <ul>
-                        <li>熟悉ES6語法，以及JS各項特性與原理。（eg. prototype、closure、scope）</li>
-                        <li>能夠使用原生JS實作出Jquery的各種動畫效果。</li>
-                        <li>熟悉Ajax串接後端API。</li>
-                        <li>熟悉非同步事件處理。</li>
+                        <li>熟悉ES6語法，以及非同步事件處理。</li>
+                        <li>熟悉Ajax串接RESTful API。</li>
                         <li>有使用過Typescript的經驗。</li>
                     </ul>
                  </div>
-                
+                 
                </div>
                <div class="col-lg-4 col-md-6 col-12">
                  <div class="skill-vue ">
@@ -86,12 +69,33 @@
                     </h3>
                     
                     <ul>
-                        <li>熟悉Vue的各種功能，<br> 以及使用Vue Devtools進行debug。</li>
-                        <li>了解Vue生命週期，以及使用時機。</li>
-                        <li>熟悉Vue router與Vuex。</li>
-                        <li>熟悉Vue Cli 2、3的相關配置。</li>
-                        <li>能夠切割組件進行封裝，便於維護。</li>
+                        <li>熟悉Vue的各種API以及生命週期，<br> 並使用Vue Devtools進行debug。</li>
+                        <li>熟悉Vue-router建構SPA網站。</li>
+                        <li>熟悉Vuex進行狀態管理與非同步action。</li>
+                        <li>使用Vue Cli搭建專案與配置依賴。</li>
+                        <li>以組件化的思維開發，便於維護、協作。</li>
                         <li>理解MVVM開發模式。</li>
+                    </ul>
+                  </div>
+                
+               </div>
+               <div class="col-lg-4 col-md-6 col-12">
+                 <div class="skill-react ">
+                    <h3>
+                      <div class="pic">
+                        <img src="../assets/react.png" alt="React.js圖片">
+                      </div>
+                      React.js
+                    </h3>
+                    
+                    <ul>
+                        <li>熟悉JSX語法與組件間的資料傳遞方式。</li>
+                        <li>了解redux的基本功能與非同步處理。</li>
+                        <li>會配置Redux-Thunk等中介件。</li>
+                        <li>有使用過Styled Components。</li>
+                        <li>接觸過ReduxForm、Highcharts。</li>
+                        <li>使用react create app搭建專案與配置。</li>
+                        <li>以組件化的思維開發，便於維護、協作。</li>
                     </ul>
                   </div>
                 </div>
@@ -106,12 +110,13 @@
                     </h3>
                     
                     <ul>
-                        <li>使用Express框架，並配置各項中間件。</li>
+                        <li>使用Express框架，並配置各項中介件。</li>
                         <li>自行設計路由與API，進行CRUD。</li>
-                        <li>配置Session進行狀態管理。</li>
-                        <li>熟悉art-template模板引擎。</li>
-                        <li>會使用MySQL、MongoDB等資料庫。</li>
-                        <li>有獨自開發會員式部落格的經驗(前端+後端)。</li>
+                        <li>配置Session保存使用者認證狀態。</li>
+                        <li>串接過MySQL、MongoDB等資料庫。</li>
+                        <li>接觸過art-template模板引擎。</li>
+                        <li>接觸過Universal渲染技術。</li>
+                        <li>有獨自開發前端+後端的經驗（請見作品集）。</li>
                     </ul>
                  </div>
                  <div class="skill-dev wow slideInLeft">
@@ -123,7 +128,7 @@
                         <li>編輯器：VSCode、SublimeText3</li>
                         <li>NPM包管理工具。</li>
                         <li>Git版本控管。</li>
-                        <li>Webpack自動化打包。(會配置、擴展)</li>
+                        <li>Webpack自動化打包。(可參考官網進行配置、擴展)</li>
                         <li>Postman與Json-serve模擬RESTful API。</li>
                         <li>Google Search Console測試SEO成效。</li>
                     </ul>
@@ -172,6 +177,7 @@
                           </ol>
                         </li>
                         <li>其他接觸過的程式語言：C++、Python、PHP。</li>
+                        <li>Draw.io、Trello、Evernote。</li>
                         
                     </ul>
                  </div>
