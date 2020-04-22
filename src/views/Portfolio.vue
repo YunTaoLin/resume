@@ -131,9 +131,9 @@ export default {
   data(){
     return {
       loading:true,
-      carousel_1:['/static/book1.PNG','/static/book2.PNG','/static/book3.PNG','/static/book4.PNG'],
-      carousel_2:['/static/hair1.PNG','/static/hair2.PNG','/static/hair3.PNG','/static/hair4.PNG'],
-      carousel_3:['/static/blog1.PNG','/static/blog2.PNG','/static/blog3.PNG','/static/blog4.PNG','/static/blog5.PNG']
+      carousel_1:['/resume/dist/static/book1.PNG','/resume/dist/static/book2.PNG','/resume/dist/static/book3.PNG','/resume/dist/static/book4.PNG'],
+      carousel_2:['/resume/dist/static/hair1.PNG','/resume/dist/static/hair2.PNG','/resume/dist/static/hair3.PNG','/resume/dist/static/hair4.PNG'],
+      carousel_3:['/resume/dist/static/blog1.PNG','/resume/dist/static/blog2.PNG','/resume/dist/static/blog3.PNG','/resume/dist/static/blog4.PNG','/resume/dist/static/blog5.PNG']
     }
   },
    created(){
