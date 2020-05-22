@@ -104,7 +104,7 @@
                  <div class="skill-node wow slideInLeft">
                     <h3>
                       <div class="pic">
-                        <img src="https://icon-library.net/images/nodejs-icon/nodejs-icon-13.jpg" alt="Node.js圖片">
+                        <img src="https://www.wemakeapp.net/images/mobileweb/nodejs.png" alt="Node.js圖片">
                       </div>
                       Node.js
                     </h3>
